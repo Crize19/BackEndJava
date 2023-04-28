@@ -38,7 +38,7 @@ public class EstudiantesServicios {
     
         for (int i = 0; i < est.length; i++) {
             if (est[i].getNota()>promt) {
-                System.out.println(est[i].getNombre()+" tiene un promedio superior al resto(" + est[i].getNota()+")");
+                System.out.println(est[i].getNombre()+" tiene un promedio superior al resto");
             }
         }
     
