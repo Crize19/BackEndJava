@@ -28,6 +28,20 @@ public class Guia7OexSopaDeLetras {
         
         ss.mostrarSopa(s1);
         
+        System.out.println("Ingrese la palabra a buscar");
+        
+        ss.pedirPalabra(s1);
+        
+       int [] pos = ss.buscarPalabra(s1);
+        
+        System.out.println("La palabra inicia en :" +pos[0] +","+pos[1] );
+        
+        System.out.println("Ingrese la palabra a reemplazar");
+       
+        ss.cambioDePalabra(s1);
+        
+        ss.sopaInvertida(s1);
+        
         
     }
     
